@@ -11,9 +11,12 @@ const sieveOfEratosthenes = (n) => {
             }
         }
     }
-    
-    return primes.reduce((acc, isPrime, index) => {
-        if (isPrime) acc.push(index);
-        return acc;
-    }, []);
+    console.log(primes)
+    // return primes.reduce((acc, isPrime, index) => {
+    //     if (isPrime) acc.push(index);
+    //     return acc;
+    // }, []);
+
 }
+
+sieveOfEratosthenes(100)

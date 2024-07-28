@@ -1,0 +1,14 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "a collection of algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timothy Huneck",
+  "license": "MIT",
+  "dependencies": {
+    "node": "^20.16.0"
+  }
+}
